@@ -3,63 +3,29 @@
     <head>
         <title>Search</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <a href="imade.html">images</a>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         
-        <style> 
-            main .form-control
-                {
-                    /* center form controls */
-                     display: inline-block;
-
-                    /* override Bootstrap's 100% width for form controls */
-                    width: auto;
-                }
-                main
-                    {
-                        /* scroll horizontally as needed */
-                        overflow-x: auto;
-
-                        /* center contents */
-                        text-align: center;
-                    }
-                main .btn btn-light
-                {
-                    text-align: center;
-                }
-        </style>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">searchs</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="https://google.com/search">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+    <body >
+        <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Google</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="images.html">Images</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="advances.html">Advanced Search</a>
+            </li>
+          </ul>
+
         <main class=".container">
-        <form action="https://google.com/search"></form>
+        <form class="move" action="https://google.com/search">
             <input class="form-control" type="text" name="q">
-            <input class="btn btn-light" type="submit" value="Google Search">
+            <input id="move1" class="btn btn-light" type="submit" value="Google Search">
             <form action="https://www.google.com/doodles">
-                <input class="btn btn-light" type="submit" value="lucky">
+                <input id="move1" class="btn btn-light" type="submit" value="lucky">
             </form>
         </form>
         
